@@ -18,7 +18,9 @@ namespace Calc
             b = Convert.ToInt32(Console.ReadLine());
             resAdd = a + b;
             Console.WriteLine("Ответ:" + resAdd);
-            double resSub = a - b;
+            double res = a * b;
+            Console.WriteLine("Ответ:" + res);
+            double resSub = a + b;
             Console.WriteLine("Ответ:" + resSub);
             Console.ReadKey();
         }
