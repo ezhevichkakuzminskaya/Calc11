@@ -26,6 +26,8 @@ namespace Calc
             Console.WriteLine("Ответ:" + res1);
             double resproc = a % b;
             Console.WriteLine("Ответ:" + resproc);
+            double ressin = Math.Sin(a);
+            Console.WriteLine("Ответ:" + ressin);
             Console.ReadKey();
         }
     }
