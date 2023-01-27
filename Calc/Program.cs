@@ -24,6 +24,8 @@ namespace Calc
             Console.WriteLine("Ответ:" + resSub);
             double res1 = a / b;
             Console.WriteLine("Ответ:" + res1);
+            double resproc = a % b;
+            Console.WriteLine("Ответ:" + resproc);
             Console.ReadKey();
         }
     }
